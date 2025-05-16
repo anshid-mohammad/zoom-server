@@ -5,7 +5,7 @@ const { KJUR } = require('jsrsasign');
 const app = express();
 const port = 4000;
 app.use(cors({
-  origin: 'https://zoom-client.onrender.com',
+  origin: 'http://localhost:3000',
   credentials: true 
 }));
 
