@@ -14,8 +14,8 @@ app.use(express.json());
 app.post('/', (req, res) => {
   const { meetingNumber, role } = req.body;
 console.log(req.body,"xzxcc")
-  const sdkKey = "MIaKK49FSKOKYZzl5frrew";
-  const sdkSecret = "QCybrXLHEwmH3X4wymUQ5DkPW2TAlgYe";
+  const sdkKey = "ajEzh9S5Gx8b2_NjReFQ";
+  const sdkSecret = "FrxxoSNTlKvJwYOm1oXXRTSQbk4TWorv";
 
   const iat = Math.floor(Date.now() / 1000) - 30;
   const exp = iat + 60 * 60 * 2;
