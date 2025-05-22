@@ -5,7 +5,7 @@ const { KJUR } = require('jsrsasign');
 const app = express();
 const port = 4000;
 app.use(cors({
-  origin: 'https://57ed-2401-4900-1cdf-7f86-d939-1d78-3423-e5e0.ngrok-free.app ',
+  origin: 'https://661a-2401-4900-1cdf-7f86-d939-1d78-3423-e5e0.ngrok-free.app  ',
   credentials: true 
 }));
 
